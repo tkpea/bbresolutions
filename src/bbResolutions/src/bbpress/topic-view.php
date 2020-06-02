@@ -118,6 +118,6 @@ function get_topic_resolution_sticker($topic_id = 0)
             'title' => $resolution->label,
         ];
 
-        return '<span' . get_html_atts($atts) . '>' . $resolution->sticker . '</span>';
+        return '<span' . get_html_atts($atts) . '>' . __($resolution->sticker, 'bbresolutions') . '</span>';
     }
 }

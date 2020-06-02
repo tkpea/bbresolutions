@@ -138,7 +138,7 @@ function get_resolutions_dropdown(array $args = [])
                 ]
             );
 
-            $output .= "<option{$option_atts}>{$option_label}</option>";
+            $output .= "<option{$option_atts}>" .__($option_label, 'bbresolutions') . "</option>";
         }
     }
 
