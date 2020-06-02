@@ -57,7 +57,7 @@ class Main
         Manager::register(
             'not-support',
             [
-                'label'     => __('Not a Question', 'bbresolutions'),
+                'label'     => 'Not a Question',
                 'value'     => '1',
             ]
         );
@@ -65,7 +65,7 @@ class Main
         Manager::register(
             'not-resolved',
             [
-                'label'     =>  __('Not Resolved', 'bbresolutions'),
+                'label'     =>  'Not Resolved',
                 'value'     => '2',
             ]
         );
@@ -73,8 +73,8 @@ class Main
         Manager::register(
             'resolved',
             [
-                'label'     =>  __('Resolved', 'bbresolutions'),
-                'sticker'   => __('[Resolved]', 'bbresolutions'),
+                'label'     => 'Resolved',
+                'sticker'   => '[Resolved]',
                 'value'     => '3',
             ]
         );
